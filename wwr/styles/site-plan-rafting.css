@@ -1,7 +1,7 @@
-@import url('https://fonts.google.com/specimen/Roboto');
+@import url(https://fonts.google.com/specimen/Roboto?query=Christian+Robertson);
 
 body {
-    font-family: 'Roboto', Helvetica, sans-serif;
+    font-family: 'roboto', Helvetica, sans-serif;
     max-width: 960px;
     padding: 20px;
     background-color: #cafbff;
@@ -16,10 +16,10 @@ body {
     --heading-font: 'Roboto', Helvetica, sans-serif;
     --paragrahp-font: 'Roboto', Helvetica, sans-serif;
 
-    --nav-background-color:var(--primary-color)
-    --nav-link-color:var(--secondary-color)
-    --nav-hover-link-color:var(--accent1-color)
-    --nav-hover-background-color:var(--accent2-color)
+    --nav-background-color:var(--primary-color);
+    --nav-link-color:var(--secondary-color);
+    --nav-hover-link-color:var(--accent1-color);
+    --nav-hover-background-color:var(--accent2-color);
 }
 
 h1, h2, h3, h4, h5, h6 {
