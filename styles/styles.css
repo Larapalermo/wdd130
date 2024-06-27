@@ -12,10 +12,11 @@
     background-color: #edd4fc;
     color: #000;
 }
-aside {
+/*aside {
     width: 20em;
     text-align: center;
-}
+    position: relative;
+}*/
 nav
 {
     background-color: #903ec0;
@@ -51,6 +52,7 @@ aside {
     padding: 1rem;
     background-color: rgb(210, 208, 238);
     color: indigo;
+    position: relative;
     text-align: center;
 }
 aside img{
@@ -60,12 +62,18 @@ aside img{
 main img {
     width: 150px;
     height: auto;
+    float: right;
 }
 p {
     padding: 0;
 }
+
 footer {
     margin-top: 15px;
     border-top: 1px solid #1b175a;
+    text-align:center;
+}
+aside h2{
+    position: absolute;
     text-align:center;
 }
