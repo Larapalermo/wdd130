@@ -60,6 +60,7 @@ aside {
     grid-column: 1/2;
     grid-row: 1/2;
     text-align: center;
+    position: relative;
 }
 
 aside img{
@@ -77,8 +78,8 @@ main img {
 }
 aside h2{
     position: absolute;
-    top: 100px;
-    left: 375px;
+    top: 15px;
+    left: 105px;
     color: #fbf6fd;
 }
 
