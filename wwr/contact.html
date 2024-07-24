@@ -32,22 +32,61 @@
            <form>
             <fieldset>
                 <legend>Form</legend>
-                <label for="fullname">Full Name:</label>
-                <input type="text" id="fullname" name="fullname">
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email">
-            </fieldset>
-            <fieldset>
-                <legend>What do you want to do?</legend>
-                <label for="options">Select an option:</label>
-                <select id="options" name="options">
-                    <option value="General Inquiry">General Inquiry</option>
-                    <option value="Reservation Question">Reservation Question</option>
-                    <option value="Website Suggestion">Website Suggestion</option>
-                </select>
+                <form>
+                    <div class="form-group">
+                        <label for="fullname">Full Name:</label>
+                        <input type="text" id="fullname" name="fullname">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email">
+                    </div>
+                    <div class="form-group">
+                        <p>Purpose of the message:</p>
+                        <label>
+                            <input type="radio" name="purpose" value="General Inquiry" required>
+                            General Inquiry
+                        </label><br>
+                        <label>
+                            <input type="radio" name="purpose" value="Reservation Question" required>
+                            Reservation Question
+                        </label><br>
+                        <label>
+                            <input type="radio" name="purpose" value="Website suggestion" required>
+                            Website Suggestion
+                        </label>
+                    </div>
+                    <label for="text">Message:</label>
+                    <div class="form-group">
+                        <textarea id="text" name="text" rows="4" cols="50" placeholder="Write your message..."></textarea>
+                    </div>
+                    <div>
+                        <label>
+                            <input type="checkbox" name="subscribe" value="yes">
+                            Please subscribe me to the monthly newsletter
+                        </label>
+                    </div>
+
+                    <input type="submit" value="Submit">  
+                </form>
             </fieldset>
            </form>
         </main>
+        <section>
+            <h2>Clients</h2>
+            <figure>
+                <img src="images/empleado1.jpg" alt="img1" width="195">
+                <figcaption>Marina Lopez</figcaption>
+            </figure>
+            <figure>
+                <img src="images/empleado2.jpg" alt="img2" width="195">
+                <figcaption>Marcos Bernis</figcaption>
+            </figure>
+            <figure>
+                <img src="images/empleado3.jpg" alt="img3" width="240">
+                <figcaption>Mario Alfonso</figcaption>
+            </figure>
+        </section>
         <footer>
             <nav class="sociallinks">
                 <p>&copy; 2024  &#128675; Rafting Sella &#128675; Lara Palermo &#128675;</p>
