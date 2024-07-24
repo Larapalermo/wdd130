@@ -133,3 +133,34 @@ figure img{
     max-width: 100%;
     height:auto;
 }
+.act{
+    margin:20px;
+    text-align: center;
+}
+.act a{
+    padding: 10px 15px;
+    background-color: #fff;
+    color:#3586A4;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 50px;
+}
+
+.act:hover{
+    background-color:#76CED5;
+}
+.trip-container{
+    display: flex;
+    justify-content: space-around;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0px;
+}
+th, td{
+    padding: 20px;
+    border: 2px solid #000000;
+    text-align: center;
+    background-color: #98cace;
+}
