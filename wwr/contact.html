@@ -29,10 +29,9 @@
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2125.7452332999396!2d-68.46153064421745!3d-32.82344220370416!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x96808f2ecdeb96e1%3A0xdacb0136fd64c243!2sR%C3%ADo%20Mendoza!5e0!3m2!1ses-419!2sar!4v1721337557070!5m2!1ses-419!2sar" width="100" height="100" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                </div>
             </article>
-           <form>
+        <form>
             <fieldset>
                 <legend>Form</legend>
-                <form>
                     <div class="form-group">
                         <label for="fullname">Full Name:</label>
                         <input type="text" id="fullname" name="fullname">
@@ -44,15 +43,15 @@
                     <div class="form-group">
                         <p>Purpose of the message:</p>
                         <label>
-                            <input type="radio" name="purpose" value="General Inquiry" required>
+                            <input type="radio" id="purpose" name="purpose" value="General Inquiry" required>
                             General Inquiry
                         </label><br>
                         <label>
-                            <input type="radio" name="purpose" value="Reservation Question" required>
+                            <input type="radio" id="purpose1" name="purpose1" value="Reservation Question" required>
                             Reservation Question
                         </label><br>
                         <label>
-                            <input type="radio" name="purpose" value="Website suggestion" required>
+                            <input type="radio" id="purpose2" name="purpose2" value="Website suggestion" required>
                             Website Suggestion
                         </label>
                     </div>
@@ -62,15 +61,14 @@
                     </div>
                     <div>
                         <label>
-                            <input type="checkbox" name="subscribe" value="yes">
+                            <input type="checkbox" id="subscribe" name="subscribe" value="yes">
                             Please subscribe me to the monthly newsletter
                         </label>
                     </div>
 
-                    <button type="submit form" value="Submit">Submit</button>
-                </form>
+                    <button type="submit" id="submit" value="submit">Submit</button>  
             </fieldset>
-           </form>
+        </form>
         </main>
         <section>
             <h2>Clients</h2>
