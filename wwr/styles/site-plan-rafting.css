@@ -21,12 +21,38 @@ body {
     --nav-hover-link-color:var(--accent1-color);
     --nav-hover-background-color:var(--accent2-color);
 }
-
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'roboto', Helvetica, sans-serif;
-    color: var(--accent1-color)
+main{
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #9ce9cf;
+    border-radius: 8px;
+    box-shadow: 10px 10px 10px #2a3636;
 }
 
+h2{
+    text-align:center;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'roboto', Helvetica, sans-serif;
+    color: var(--accent1-color);
+}
+.act{
+    margin:20px;
+    text-align: center;
+}
+.act a{
+    padding: 10px 15px;
+    background-color: #fff;
+    color:#3586A4;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 50px;
+}
+
+.act:hover{
+    background-color:#76CED5;
+}
 header {
     padding: 50px;
     background-color: #9ce9cf;
@@ -40,7 +66,7 @@ p {
 nav {
     background-color: #9ce9cf;
     padding: 10px;
-    width: 1250px;
+    width: 800px;
     display: flex;
     text-align: center;
 }
